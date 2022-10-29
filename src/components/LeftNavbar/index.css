@@ -1,0 +1,42 @@
+.left-navbar-items {
+}
+
+@media screen and (max-width: 991px) {
+  .left-navbar-items {
+    margin-right: 60px;
+  }
+}
+
+.list-item-btn {
+  cursor: pointer;
+  border: #0284c7 solid 1px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 8px;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 991px) {
+  .list-item-btn {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0px;
+    width: 150px;
+    text-align: start;
+    font-weight: 600;
+  }
+}
+
+.selected-status {
+  color: #ffffff;
+  background-color: #0284c7;
+}
+@media screen and (min-width: 991px) {
+  .selected-status {
+    color: #0284c7;
+    background-color: transparent;
+  }
+}
