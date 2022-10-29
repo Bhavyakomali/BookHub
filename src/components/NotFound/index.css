@@ -1,0 +1,66 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  width: 448px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .not-found-img {
+    width: 225px;
+    height: 225px;
+  }
+}
+
+.page-not-found-heading {
+  color: #334155;
+  font-size: 32px;
+  width: 448px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .page-not-found-heading {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.page-para {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 991px) {
+  .page-para {
+    font-size: 14px;
+  }
+}
+
+.notfound-button {
+  background-color: #0284c7;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 8px 16px 8px;
+}
+@media screen and (max-width: 767px) {
+  .notfound-button {
+    border-radius: 8px;
+    padding: 8px, 16px, 8px, 16px;
+  }
+}
