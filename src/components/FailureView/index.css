@@ -1,0 +1,50 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .failure-container {
+    justify-content: flex-start;
+  }
+}
+
+.failure-img {
+  height: 200px;
+  width: 400px;
+}
+
+@media screen and (max-width: 991px) {
+  .failure-img {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+.failure-msg {
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 400;
+}
+@media screen and (max-width: 991px) {
+  .failure-msg {
+    font-size: 19px;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.try-btn {
+  color: #ffffff;
+  background-color: #0284c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 24px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
